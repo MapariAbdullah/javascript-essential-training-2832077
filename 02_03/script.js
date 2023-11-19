@@ -30,6 +30,10 @@ const backpack = {
     this.name = newName;
     updateBackpack("New Name added");
   },
+  updateVolume: function(newVolume){
+    this.volume = newVolume;
+    updateBackpack("Updated Volume");
+  },
 };
 
 const markup = (backpack) => {
