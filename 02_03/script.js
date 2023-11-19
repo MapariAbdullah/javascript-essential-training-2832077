@@ -26,6 +26,10 @@ const backpack = {
     this.strapLength.right = lengthRight;
     updateBackpack(`Strap lengths updated.`);
   },
+  updateName: function(newName){
+    this.name = newName;
+    updateBackpack("New Name added");
+  },
 };
 
 const markup = (backpack) => {
