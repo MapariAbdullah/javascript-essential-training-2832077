@@ -6,3 +6,15 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+const Student = class{
+    constructor(name, id, email, rollno){
+        this.name = name;
+        this.id = id;
+        this.email = email;
+        this.rollno = rollno;
+    }
+    updateName(newName){
+        this.name = newName;
+    }
+}
